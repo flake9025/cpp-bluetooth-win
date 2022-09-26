@@ -260,12 +260,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="bluetoothManager.h" />
+    <ClInclude Include="BLEDevice.h" />
+    <ClInclude Include="BLEDeviceService.h" />
+    <ClInclude Include="BLEUtils.h" />
+    <ClInclude Include="BluetoothManager.h" />
+    <ClInclude Include="Discovery.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bluetoothManager.cpp" />
+    <ClCompile Include="BLEDeviceService.cpp" />
+    <ClCompile Include="BLEUtils.cpp" />
+    <ClCompile Include="BluetoothManager.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -276,6 +282,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="BLEDevice.cpp" />
+    <ClCompile Include="Discovery.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

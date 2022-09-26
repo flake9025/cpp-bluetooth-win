@@ -7,12 +7,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bluetoothManager.cpp" />
+    <ClCompile Include="BluetoothManager.cpp" />
     <ClCompile Include="pch.cpp" />
+    <ClCompile Include="BLEDeviceService.cpp" />
+    <ClCompile Include="BLEDevice.cpp" />
+    <ClCompile Include="Discovery.cpp" />
+    <ClCompile Include="BLEUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bluetoothManager.h" />
+    <ClInclude Include="BluetoothManager.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="BLEUtils.h" />
+    <ClInclude Include="BLEDeviceService.h" />
+    <ClInclude Include="BLEDevice.h" />
+    <ClInclude Include="Discovery.h" />
   </ItemGroup>
 </Project>
